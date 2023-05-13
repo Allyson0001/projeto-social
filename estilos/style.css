@@ -8,12 +8,12 @@
 
 html, body {
     height: 100vh;
-    width: 100vh;
+    width: 100vw;
     background-color: black;
 }
 
 body {
-    background: url(../imagens/fundo-madeira.jpg) no-repeat;
+    background: url(../imagens/fundo-madeira.jpg) no-repeat top center;
     background-size: cover;
     background-attachment: fixed;
 }
@@ -54,9 +54,9 @@ section#redes-sociais img {
     box-sizing: border-box;
 }
 
-section {
-    border: 2px solid rgba(255, 255, 255, 0.637);
+section#redes-sociais img:hover {
+    border: 2px solid rgb(109, 103, 103);
     transform: translate(-3px, -3px);
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.623);
-    transition: transform .3s, border 1s;
+    transition: transform .3s, border 0.4s;
 }
